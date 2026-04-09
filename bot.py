@@ -46,9 +46,13 @@ def handle_all_messages(message):
     
     try:
         # Panggil Gemini 1.5 Flash (Lebih stabil untuk Free Tier)
+        # Guna format nama model tanpa prefix 'models/' jika 404 berterusan
         response = client.models.generate_content(
-            model="gemini-1.5-flash",
-            config={'system_instruction': system_instruction},
+            model="gemini-1.5-flash", 
+            config={
+                'system_instruction': system_instruction,
+                'temperature': 0.7, # Tambah ini untuk kestabilan akaun billing
+            },
             contents=message.text
         )
         ai_text = response.text.strip()
