@@ -26,7 +26,7 @@ def handle_all_messages(message):
     try:
         full_prompt = f"Data: {training_data}\n\nSoalan: {message.text}"
         response = client.models.generate_content(
-            model="gemini-1.5-flash",
+            model="gemini-2.5-flash",
             contents=full_prompt
         )
         bot.reply_to(message, response.text.strip())
