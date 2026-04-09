@@ -35,7 +35,7 @@ def handle_student(message):
     try:
         # Use the latest generation method
         response = client.models.generate_content(
-            model="gemini-1.5-flash",
+            model="models/gemini-1.5-flash", # Tambah 'models/' di depan
             config={'system_instruction': system_instruction},
             contents=message.text
         )
