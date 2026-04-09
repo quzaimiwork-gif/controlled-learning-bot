@@ -59,9 +59,29 @@ def handle_admin(message):
     except:
         bot.reply_to(message, "Error replying.")
 
-# 5. THE CONFLICT KILLER
+# Replace the bottom of your bot.py (Step 5) with this:
+
 if __name__ == "__main__":
-    print("Killing old sessions and starting bot...")
-    # This force-cleans the Telegram connection
-    bot.remove_webhook()
-    bot.infinity_polling(skip_pending=True)
+    import time
+    print("--- SYSTEM RESTART ---")
+    
+    # 1. Force Telegram to forget any active connections
+    try:
+        bot.remove_webhook()
+        print("Webhook cleared.")
+    except:
+        pass
+
+    # 2. Crucial Delay
+    # This gives Railway's old deployment time to actually die
+    print("Waiting 10 seconds for old sessions to expire...")
+    time.sleep(10) 
+
+    # 3. Start Polling with 'Non-Stop' mode
+    print("Bot is now live and listening!")
+    try:
+        # 'non_stop=True' helps the bot recover from small network blips
+        bot.polling(non_stop=True, skip_pending=True, timeout=60)
+    except Exception as e:
+        print(f"Polling Error: {e}")
+        time.sleep(5)
