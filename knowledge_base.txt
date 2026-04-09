@@ -1,0 +1,119 @@
+[Chunk 1: Peranan MYNIC dalam Dunia Digital]
+Kandungan: MYNIC Berhad ialah agensi rasmi di bawah Kementerian Digital Malaysia. Mereka adalah pemegang mandat tunggal untuk menguruskan identiti digital negara (.my).
+•	Pentadbiran DNS: MYNIC mengendalikan Pusat Maklumat Rangkaian Negara yang memastikan setiap alamat .my berfungsi dengan stabil dan selamat melalui sistem DNS (Domain Name System).
+•	Transformasi Digital: Fokus utama MYNIC adalah membantu perniagaan tempatan, terutamanya PKS, untuk berpindah dari perniagaan tradisional kepada perniagaan digital yang mempunyai kredibiliti.
+•	Keselamatan: Mereka memastikan infrastruktur domain negara dilindungi daripada ancaman siber dan manipulasi data.
+Huraian Visual: Slaid menunjukkan logo rasmi kementerian di sebelah atas. Di bawahnya, terdapat tiga kotak info utama: Imej glob rangkaian (Urus DNS), imej graf menaik (Transformasi Digital), dan imej perisai (Keselamatan).
+________________________________________
+[Chunk 2: Apa Itu Nama Domain]
+Kandungan: Nama domain ialah alamat unik di internet yang membolehkan pengguna mencari laman web anda (seperti alamat pejabat fizikal). Tanpa nama domain, pengguna terpaksa menghafal nombor IP (IP Address) yang rumit (contoh: 192.168.x.x). Struktur Nama Domain:
+1.	Nama (Label): Bahagian utama yang biasanya adalah nama jenama atau perniagaan anda (Contoh: maybank2u).
+2.	Extension (Akhiran): Bahagian selepas titik yang menentukan kategori (Contoh: .com.my).
+Huraian Visual: Slaid memaparkan bar alamat pelayar (URL bar) dengan teks maybank2u.com.my. Terdapat garisan penunjuk: 'maybank2u' dilabel sebagai Nama manakala '.com.my' dilabel sebagai Extension.
+________________________________________
+[Chunk 3: Jenis-Jenis Nama Domain (Extension)]
+Kandungan: Extension domain membantu mengenal pasti identiti dan tujuan sesebuah organisasi:
+•	Kategori Terbuka (Open Categories): Boleh didaftarkan oleh sesiapa (Individu/Syarikat). Contohnya: .my (Individu/Umum), .com.my (Komersial), .biz.my (Perniagaan Mikro/Kecil), .org.my (Pertubuhan).
+•	Kategori Terhad (Restricted Categories): Memerlukan dokumen rasmi kerajaan atau kementerian. Contohnya: .gov.my (Agensi Kerajaan), .edu.my (Institusi Pendidikan), .mil.my (Tentera), .net.my (Penyedia Rangkaian).
+Huraian Visual: Carta hierarki menunjukkan .MY di puncak, berpecah kepada dua kategori utama: Terbuka dan Terhad, masing-masing dengan ikon bangunan yang berkaitan.
+________________________________________
+[Chunk 4: Kepentingan Nama Domain .my]
+Kandungan: Kenapa usahawan wajib memilih .my?
+1.	Identiti Malaysia: Menunjukkan perniagaan anda adalah entiti sah Malaysia (Local Pride).
+2.	Kredibiliti & Kepercayaan: Pendaftaran .my memerlukan pengesahan identiti (IC/SSM), maka ia mengurangkan risiko penipuan berbanding domain antarabangsa (.com).
+3.	Search Engine Optimization (SEO): Google mengutamakan keputusan carian tempatan. Jika pelanggan di Malaysia mencari produk anda, laman web .my akan menduduki tangga teratas berbanding pesaing luar negara.
+Huraian Visual: Imej menunjukkan hasil carian Google di mana laman web dengan .my berada di posisi pertama dengan label "Verified/Trusted".
+________________________________________
+[Chunk 5: Ekosistem e-Dagang]
+Kandungan: Laman web adalah "Pusat Transformasi Digital". Dalam ekosistem ini:
+•	Media Sosial (FB/IG/TikTok): Berperanan sebagai ejen penarik perhatian dan pengiklanan.
+•	Marketplace (Shopee/Lazada): Berperanan sebagai tempat jualan segera.
+•	Laman Web Rasmi: Berperanan sebagai "Markas Besar" di mana anda memiliki data pelanggan sepenuhnya, membina jenama jangka panjang, dan tidak terikat dengan peraturan ketat platform pihak ketiga.
+Huraian Visual: Rajah "Hub & Spoke". Laman web berada di pusat bulatan. Media sosial dan marketplace berada di luar bulatan dengan anak panah menunjukkan aliran trafik masuk ke laman web pusat.
+________________________________________
+[Chunk 6: MYKomuniti.my]
+Kandungan: Ini adalah inisiatif khas MYNIC untuk mendigitalkan komuniti setempat (seperti kampung atau daerah). Ia menyediakan portal berpusat untuk ahli komuniti mempromosikan produk tempatan, berkongsi berita komuniti, dan merapatkan jurang digital antara bandar dan luar bandar.
+Huraian Visual: Tangkapan skrin portal yang menunjukkan direktori peniaga kampung dan pengumuman aktiviti komuniti.
+________________________________________
+[Chunk 7: Bagaimana Laman Web Berfungsi]
+Kandungan: Tiga komponen utama yang mesti ada:
+1.	Domain (Alamat): Alamat unik untuk orang mencari anda.
+2.	Hosting (Ruang): Pelayan (server) tempat menyimpan fail gambar, teks, dan data laman web.
+3.	Web Builder (Alat Bina): Perisian mesra pengguna (seperti WordPress atau Prime Builder) yang membolehkan anda menyusun reka bentuk laman web tanpa perlu koding.
+Huraian Visual: Analogi bangunan: Domain (Papan Tanda Alamat), Hosting (Tapak Tanah Kedai), Web Builder (Tukang Bina & Hiasan Dalaman).
+________________________________________
+[Chunk 8: Tips Pemilihan Nama Domain]
+Kandungan: Peraturan memilih nama domain yang berkesan:
+•	Ringkas: Maksimum 2-3 patah perkataan.
+•	Mudah: Senang disebut, dieja, dan diingat.
+•	Konsisten: Mesti sama dengan nama jenama/SSM anda.
+•	Bersih: Elakkan tanda sempang (-), nombor yang tidak bermakna, atau ejaan yang mengelirukan (seperti kedaai-makan2u.my).
+•	Sekatan: Dilarang menggunakan nama yang menyentuh sensitiviti diraja, agama, negara, atau nama entiti kerajaan tanpa kebenaran.
+Huraian Visual: Senarai "Dos & Don'ts" dengan ikon pangkah merah pada nama domain yang panjang dan rumit.
+________________________________________
+[Chunk 9: Panduan Mendaftar Nama Domain (Elite)]
+Kandungan: Langkah-langkah teknikal pendaftaran di MYNIC Prime:
+1.	Layari portal dan pilih butang "Plans with training" di bahagian atas.
+2.	Pilih pakej "Elite" (pakej yang merangkumi latihan).
+3.	Gunakan bar carian untuk menyemak ketersediaan nama domain.
+4.	Jika tersedia, klik butang "Select" berwarna biru di sebelah kanan nama domain tersebut.
+5.	Pilih profil (Individual/Syarikat) dan muat naik dokumen (IC/SSM).
+6.	Di halaman "Shopping Cart", cari kotak "Promo Code" di bahagian bawah maklumat harga.
+7.	Masukkan kod ELITE2SIP dan klik "Apply". Pastikan baki menjadi RM 0.00.
+8.	Klik "Proceed" untuk melengkapkan pesanan.
+Huraian Visual: Gambar menunjukkan kedudukan kotak promo code yang berada di sebelah bawah kanan, berdekatan dengan jumlah besar harga (Grand Total). Butang "Apply" berada betul-betul di sebelah kotak teks tersebut.
+________________________________________
+[Chunk 10: Direktori MYDX]
+Kandungan: Malaysia Digital Xchange (MYDX) ialah sebuah platform direktori yang menghimpunkan semua perniagaan digital .my. Kelebihannya:
+•	Meningkatkan keterlihatan (visibility) perniagaan anda di internet.
+•	Memudahkan kolaborasi perniagaan ke perniagaan (B2B).
+•	Menyediakan platform pendedahan percuma bagi usahawan yang baru bermula.
+Huraian Visual: Paparan antaramuka direktori dengan kategori industri yang disusun dalam kotak-kotak (tiles).
+________________________________________
+[Chunk 11: Asas Perniagaan menggunakan VPC]
+Kandungan: Value Proposition Canvas (VPC) adalah kaedah untuk memastikan produk anda laku di pasaran:
+•	Customer Profile (Profil Pelanggan): Fokus kepada Jobs (apa pelanggan nak buat), Pains (apa masalah mereka), dan Gains (apa keinginan mereka).
+•	Value Map (Peta Nilai): Fokus kepada Pain Relievers (bagaimana anda selesaikan masalah mereka) dan Gain Creators (bagaimana anda beri lebih daripada yang mereka harapkan). Tujuan: Untuk mencapai "Product-Market Fit" (Produk yang betul untuk pasaran yang betul).
+Huraian Visual: Rajah kotak (Value Map) di sebelah kiri dan bulatan (Customer Profile) di sebelah kanan. Terdapat anak panah yang menghubungkan penyelesaian masalah dengan kesakitan pelanggan.
+________________________________________
+[Chunk 12: Kandungan: Tentang Kami (About Us)]
+Kandungan: Halaman ini adalah untuk membina hubungan emosi dengan pelanggan. Komponen wajib:
+•	Sejarah: Bagaimana anda bermula.
+•	Misi: Apa yang anda buat setiap hari untuk pelanggan.
+•	Visi: Matlamat masa depan syarikat.
+•	Kredibiliti: Nyatakan pencapaian, sijil, atau keunikan pasukan anda. Gunakan ChatGPT dengan prompt: "Tuliskan halaman Tentang Kami untuk perniagaan [Nama] yang memfokuskan kepada [Produk] dengan nada [Profesional/Mesra]."
+Huraian Visual: Slaid menunjukkan susun atur teks About Us dengan gambar premis atau pasukan di bahagian sisi untuk nampak lebih manusiawi.
+________________________________________
+[Chunk 13: Unique Selling Proposition (USP)]
+Kandungan: USP ialah sebab utama pelanggan memilih anda dan bukannya pesaing.
+•	Winning Zone: Kawasan di mana anda menawarkan sesuatu yang pelanggan mahukan, tetapi pesaing anda tidak memilikinya.
+•	Ciri USP yang baik: Spesifik, Berharga (Valuable), dan Unik (Sukar ditiru).
+Huraian Visual: Rajah Venn tiga bulatan. USP terletak di kawasan pertindihan antara "Keperluan Pelanggan" dan "Kekuatan Anda", jauh daripada bulatan "Kekuatan Pesaing".
+________________________________________
+[Chunk 14: Pengenalan kepada AI (Kecerdasan Buatan)]
+Kandungan: AI bertindak sebagai pembantu kreatif dalam pembangunan web:
+1.	ChatGPT: Digunakan untuk menjana teks laman web, slogan, dan artikel blog.
+2.	Google Gemini: Digunakan untuk menjana imej visual, logo, dan hiasan laman web. Prompting: Teknik memberi arahan yang mempunyai Konteks, Tugas, dan Gaya. Contoh: "Hasilkan [Tugas] untuk [Konteks] dalam gaya [Gaya]."
+Huraian Visual: Logo ChatGPT (hijau/hitam) dan Gemini (biru/bintang) dipaparkan bersama ikon arahan teks (prompt).
+________________________________________
+[Chunk 15: Slogan dan Ayat Tarikan]
+Kandungan:
+•	Slogan: Pendek (3-5 patah perkataan), kekal lama, dan melambangkan jenama (Contoh: "Kualiti Tanpa Kompromi").
+•	Ayat Tarikan (Attention Line): Lebih panjang, diletakkan di bahagian atas laman web (Hero Section), dan bertujuan menarik perhatian segera terhadap penyelesaian masalah (Contoh: "Sering Letih? Dapatkan Vitamin Organik Kami dan Rasai Tenaga Luar Biasa Dalam 24 Jam!").
+Huraian Visual: Contoh perbandingan di mana Slogan diletakkan kecil di bawah logo, manakala Ayat Tarikan diletakkan besar di tengah-tengah skrin utama.
+________________________________________
+[Chunk 16: Penghasilan Logo menggunakan AI]
+Kandungan: Gunakan Google Gemini untuk membina logo profesional. Syarat Logo Web:
+•	Gaya Minimalis & Moden.
+•	Warna yang konsisten dengan jenama.
+•	Tanpa Teks: AI sering silap mengeja dalam gambar. Minta AI buat ikon sahaja, dan tambah teks menggunakan perisian web builder kemudian. Prompt: "Hasilkan satu logo minimalis untuk perniagaan [Jenis Perniagaan], gaya flat design, warna [Tona Warna], tanpa sebarang teks."
+Huraian Visual: Laman Gemini menunjukkan empat variasi logo ikonik yang bersih tanpa tulisan yang berserabut.
+________________________________________
+[Chunk 17: Gambar Utama (Hero Image)]
+Kandungan: Gambar Hero adalah elemen pertama yang dilihat pengunjung (Fasa Attention dalam Model AIDA). Spesifikasi Teknikal:
+•	Nisbah: 16:9 (Landskap/Melintang).
+•	Saiz: 1920px x 1080px.
+•	Kualiti: Gaya foto stok (Stock photo style), bersih, dan tidak berserabut.
+•	Syarat Penting: TIDAK BOLEH ADA TEKS dalam gambar tersebut supaya ia tidak bertindih dengan teks yang kita masukkan secara digital dalam web builder.
+Huraian Visual: Imej menunjukkan kotak segi empat tepat melintang. Terdapat tanda 'X' merah pada gambar yang mempunyai tulisan promosi, dan tanda 'Rait' hijau pada gambar yang hanya menunjukkan suasana perniagaan yang bersih dan berkualiti tinggi.
+
