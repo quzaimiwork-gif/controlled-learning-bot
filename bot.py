@@ -41,11 +41,17 @@ def handle_all_messages(message):
     
     try:
         # MENGGUNAKAN MODEL GEMINI 3.1 FLASH
+try:
+        # Format terbaru untuk SDK google-genai
         response = client.models.generate_content(
-            model="gemini-3.1-flash", 
-            config={'system_instruction': system_instruction},
-            contents=message.text
+            model="gemini-3.1-flash", # Gunakan 1.5-flash untuk kestabilan maksimum
+            contents=message.text,
+            config={
+                'system_instruction': system_instruction,
+                'temperature': 0.7
+            }
         )
+        ai_text = response.text.strip()
         ai_text = response.text.strip()
 
         if "TRIGGER_FALLBACK" in ai_text:
