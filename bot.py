@@ -4,7 +4,7 @@ import telebot
 from google import genai
 from dotenv import load_dotenv
 
-# 1. SETUP KONFIGURASI
+# 1. SETUP
 load_dotenv()
 
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
@@ -13,69 +13,51 @@ ADMIN_CHAT_ID = os.getenv("ADMIN_CHAT_ID")
 
 bot = telebot.TeleBot(TELEGRAM_BOT_TOKEN)
 
-# Guna API v1 untuk akaun Billing
+# Guna v1 untuk elak 404 pada akaun Billing
 client = genai.Client(
     api_key=GEMINI_API_KEY,
     http_options={'api_version': 'v1'}
 )
 
-# 2. MUAT NAIK DATA LATIHAN
+# 2. DATA
 try:
     if os.path.exists("knowledge_base.txt"):
         with open("knowledge_base.txt", "r", encoding="utf-8") as file:
             training_data = file.read()
     else:
-        training_data = "Data tidak tersedia."
-except Exception:
+        training_data = "Data SME belum tersedia."
+except:
     training_data = "Ralat data."
 
-system_instruction = f"Anda pakar SME. Jawab guna data ini: {training_data}. Jika tiada, balas: TRIGGER_FALLBACK."
-
-# 3. PENGENDALI MESEJ
+# 3. MESEJ HANDLER
 @bot.message_handler(func=lambda message: True)
 def handle_all_messages(message):
     bot.send_chat_action(message.chat.id, 'typing')
-    
-    # --- PASTIKAN SEMUA DI BAWAH INI MASUK KE DALAM (INDENTED) ---
     try:
-        # Format gabungan untuk elakkan ralat 'Unknown name systemInstruction'
-        prompt_gabungan = f"ARAHAN SISTEM: {system_instruction}\n\nSOALAN PENGGUNA: {message.text}"
+        # Teknik prompt gabungan (Paling selamat untuk Billing Tier 1)
+        system_msg = f"Anda pakar SME. Rujuk data ini: {training_data}. Jika tiada, balas: TRIGGER_FALLBACK."
+        full_prompt = f"ARAHAN: {system_msg}\n\nUSER: {message.text}"
         
         response = client.models.generate_content(
-            model="gemini-1.5-flash",
-            contents=prompt_gabungan
+            model="gemini-1.5-flash", 
+            contents=full_prompt
         )
-        ai_text = response.text.strip()
-
-        if "TRIGGER_FALLBACK" in ai_text:
-            bot.reply_to(message, "Maaf, saya perlu semak dengan pakar kami sebentar.")
-            if ADMIN_CHAT_ID:
-                bot.send_message(ADMIN_CHAT_ID, f"🚨 Soalan: {message.text}\nUser ID: `{message.chat.id}`")
-        else:
-            bot.reply_to(message, ai_text)
-
+        bot.reply_to(message, response.text.strip().replace("TRIGGER_FALLBACK", "Maaf, saya perlu semak dengan pakar kami."))
     except Exception as e:
-        print(f"Ralat: {e}")
-        bot.reply_to(message, "Maaf, sistem sedang sibuk. Cuba lagi sebentar.")
+        print(f"Gemini Error: {e}")
+        bot.reply_to(message, "Sistem sibuk. Sila cuba lagi.")
 
-# 4. ADMIN REPLY
-@bot.message_handler(func=lambda message: message.reply_to_message and str(message.chat.id) == str(ADMIN_CHAT_ID))
-def admin_reply(message):
-    try:
-        original_text = message.reply_to_message.text
-        target_user_id = original_text.split("User ID: `")[1].split("`")[0]
-        bot.send_message(target_user_id, f"👨‍🏫 **Jawapan Pakar:**\n\n{message.text}")
-        bot.reply_to(message, "✅ Berjaya.")
-    except Exception:
-        bot.reply_to(message, "Gagal. Reply pada mesej alert sahaja.")
-
-# 5. STARTUP
+# 4. STARTUP (CLEAN START)
 if __name__ == "__main__":
-    print("--- SISTEM BERMULA ---")
+    print("--- MEMBERSIHKAN WEBHOOK OLD PROCESS ---")
     try:
         bot.remove_webhook()
-        time.sleep(2)
+        # Paksa Telegram lupakan bot lama
+        bot.get_updates(offset=-1)
+        time.sleep(5) 
     except:
         pass
-    print("Bot is LIVE!")
-    bot.polling(non_stop=True, skip_pending=True)
+
+    print("Bot is LIVE dengan Token Baru!")
+    # Guna polling biasa, tanpa infinity untuk elak 409 berulang
+    bot.polling(none_stop=True, skip_pending=True)
