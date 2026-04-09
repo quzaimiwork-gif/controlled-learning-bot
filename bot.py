@@ -59,29 +59,29 @@ def handle_admin(message):
     except:
         bot.reply_to(message, "Error replying.")
 
-# Replace the bottom of your bot.py (Step 5) with this:
-
 if __name__ == "__main__":
     import time
-    print("--- SYSTEM RESTART ---")
+    print("--- MEMULAKAN HARD RESET ---")
     
-    # 1. Force Telegram to forget any active connections
     try:
+        # 1. Paksa Telegram tutup semua sesi lama
+        bot.log_out()
+        print("Sesi lama telah di 'Log Out'.")
+        time.sleep(5)
+        
+        # 2. Padam sebarang Webhook yang tersangkut
         bot.remove_webhook()
-        print("Webhook cleared.")
-    except:
-        pass
+        print("Webhook dipadam.")
+        time.sleep(5)
+    except Exception as e:
+        print(f"Nota: Sesi sedia ada sudah bersih. {e}")
 
-    # 2. Crucial Delay
-    # This gives Railway's old deployment time to actually die
-    print("Waiting 10 seconds for old sessions to expire...")
-    time.sleep(10) 
+    print("Menunggu Railway tamatkan proses lama (15 saat)...")
+    time.sleep(15) 
 
-    # 3. Start Polling with 'Non-Stop' mode
-    print("Bot is now live and listening!")
+    print("Bot kini AKTIF dan sedia menjawab!")
     try:
-        # 'non_stop=True' helps the bot recover from small network blips
-        bot.polling(non_stop=True, skip_pending=True, timeout=60)
+        # Guna polling biasa, bukan infinity untuk elakkan loop crash
+        bot.polling(non_stop=True, skip_pending=True, interval=3)
     except Exception as e:
         print(f"Polling Error: {e}")
-        time.sleep(5)
