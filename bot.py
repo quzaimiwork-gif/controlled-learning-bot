@@ -39,7 +39,7 @@ def handle_messages(message):
     try:
         # Panggil Gemini 2.0 Flash
         response = client.models.generate_content(
-            model="gemini-2.0-flash",
+            model="gemini-1.5-flash", # Tukar dari 2.0 ke 1.5
             config={'system_instruction': system_instruction},
             contents=message.text
         )
