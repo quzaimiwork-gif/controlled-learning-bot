@@ -34,7 +34,7 @@ def handle_all_messages(message):
     try:
 # CUBAAN 2: Format spesifik
         response = client.models.generate_content(
-            model="gemini-1.5-flash", # Pastikan TIADA 'models/' di depan
+            model="gemini-1.5-flash-001", 
             config={'system_instruction': system_instruction},
             contents=message.text
         )
