@@ -116,4 +116,4 @@ Kandungan: Gambar Hero adalah elemen pertama yang dilihat pengunjung (Fasa Atten
 •	Kualiti: Gaya foto stok (Stock photo style), bersih, dan tidak berserabut.
 •	Syarat Penting: TIDAK BOLEH ADA TEKS dalam gambar tersebut supaya ia tidak bertindih dengan teks yang kita masukkan secara digital dalam web builder.
 Huraian Visual: Imej menunjukkan kotak segi empat tepat melintang. Terdapat tanda 'X' merah pada gambar yang mempunyai tulisan promosi, dan tanda 'Rait' hijau pada gambar yang hanya menunjukkan suasana perniagaan yang bersih dan berkualiti tinggi.
-
+.
