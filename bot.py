@@ -32,9 +32,9 @@ system_instruction = f"Anda pakar SME. Jawab guna data ini sahaja: {training_dat
 def handle_all_messages(message):
     bot.send_chat_action(message.chat.id, 'typing')
     try:
-        # Guna gemini-1.5-flash (paling stabil untuk akaun billing baru)
+# CUBAAN 2: Format spesifik
         response = client.models.generate_content(
-            model="gemini-1.5-flash", # Padam 'models/' di depan
+            model="gemini-1.5-flash-latest", 
             config={'system_instruction': system_instruction},
             contents=message.text
         )
