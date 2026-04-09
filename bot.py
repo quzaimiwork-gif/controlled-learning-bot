@@ -34,8 +34,8 @@ def handle_student(message):
     bot.send_chat_action(message.chat.id, 'typing')
     try:
         # Use the latest generation method
-        response = client.models.generate_content(
-            model="models/gemini-1.5-flash", # Tambah 'models/' di depan
+    response = client.models.generate_content(
+            model="gemini-2.0-flash", # Tukar ke versi 2.0
             config={'system_instruction': system_instruction},
             contents=message.text
         )
