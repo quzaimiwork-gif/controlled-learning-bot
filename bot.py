@@ -34,7 +34,7 @@ def handle_all_messages(message):
     try:
         # Guna gemini-1.5-flash (paling stabil untuk akaun billing baru)
         response = client.models.generate_content(
-            model="gemini-1.5-flash",
+            model="gemini-1.5-flash", # Padam 'models/' di depan
             config={'system_instruction': system_instruction},
             contents=message.text
         )
