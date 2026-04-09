@@ -42,7 +42,7 @@ def handle_all_messages(message):
         prompt_gabungan = f"ARAHAN SISTEM: {system_instruction}\n\nSOALAN PENGGUNA: {message.text}"
         
         response = client.models.generate_content(
-            model="gemini-3.1-flash",
+            model="gemini-1.5-flash",
             contents=prompt_gabungan
         )
         ai_text = response.text.strip()
